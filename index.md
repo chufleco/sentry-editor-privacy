@@ -1,6 +1,6 @@
 # Privacy Policy for Sentry Editor
 
-**Last updated:** January 24, 2026
+**Last updated:** January 25, 2026
 
 ## Overview
 
@@ -61,7 +61,7 @@ We may update this policy occasionally. Changes will be posted on this page.
 
 ## Contact
 
-If you have questions about this privacy policy, contact us at: chufleco@gmail.com
+If you have questions about this privacy policy, contact us at: support@sentryeditor.com
 
 ---
 
