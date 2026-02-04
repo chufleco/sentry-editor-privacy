@@ -18,7 +18,7 @@
 </head>
 <body>
     <h1>Privacy Policy for Sentry Editor</h1>
-    <p class="updated"><strong>Last updated:</strong> January 25, 2026</p>
+    <p class="updated"><strong>Last updated:</strong> February 4, 2026</p>
 
     <h2>Overview</h2>
     <p>Sentry Editor is a video viewer and editor for Tesla Sentry Mode and Dashcam footage. Your privacy is important to us. This policy explains what data we collect and how we use it.</p>
@@ -32,7 +32,7 @@
         <li>All video editing and exporting happens on your device</li>
     </ul>
 
-    <h3>Analytics & Crash Reporting</h3>
+    <h3>Analytics &amp; Crash Reporting</h3>
     <ul>
         <li>We use <strong>Firebase Crashlytics</strong> to collect crash reports</li>
         <li>This helps us fix bugs and improve the app</li>
@@ -42,16 +42,33 @@
 
     <h3>Advertising</h3>
     <ul>
-        <li>We use <strong>Google AdMob</strong> to display ads in the free version</li>
+        <li>We use <strong>Google AdMob</strong> to display ads in the free version (banner, interstitial, and rewarded ads)</li>
         <li>AdMob may collect device identifiers for personalized ads</li>
         <li>You can opt out of personalized ads in your device settings</li>
+    </ul>
+
+    <h3>Ad Usage Counter</h3>
+    <ul>
+        <li>To enforce the free premium export trial limit, we store a usage counter in <strong>Firebase Firestore</strong></li>
+        <li>This record contains an anonymous device identifier (Android ID) and an integer count</li>
+        <li>No personal information is associated with this identifier</li>
+        <li>You can request deletion of this record by contacting us</li>
     </ul>
 
     <h3>Location Data</h3>
     <ul>
         <li>The app displays GPS coordinates embedded in your Tesla videos</li>
         <li>This data comes from your video files, not from your device's GPS</li>
-        <li>Location data is never transmitted to our servers</li>
+        <li>GPS coordinates are sent to <strong>Google Maps</strong> and <strong>Google's Geocoding API</strong> to display maps and convert coordinates to city/street names</li>
+        <li>We do not operate our own servers &mdash; location data is only shared with Google services for map and geocoding features</li>
+        <li>Video files themselves are never uploaded</li>
+    </ul>
+
+    <h3>Purchases</h3>
+    <ul>
+        <li><strong>Google Play Billing</strong> processes all in-app purchases</li>
+        <li>Purchase tokens are exchanged with Google Play to verify Pro status</li>
+        <li>We do not store or access payment details</li>
     </ul>
 
     <h3>Local Storage</h3>
@@ -70,23 +87,28 @@
 
     <h2>Third-Party Services</h2>
     <ul>
-        <li><strong>Google AdMob</strong> - <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
+        <li><strong>Google AdMob</strong> - <a href="https://policies.google.com/technologies/ads" target="_blank">Privacy Policy</a></li>
         <li><strong>Firebase Crashlytics</strong> - <a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Policy</a></li>
-        <li><strong>Google Maps</strong> - <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
-        <li><strong>Google Play Billing</strong> - <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
+        <li><strong>Firebase Firestore</strong> - <a href="https://firebase.google.com/support/privacy" target="_blank">Privacy Policy</a></li>
+        <li><strong>Google Maps Platform</strong> - <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
+        <li><strong>Google Play Billing</strong> - <a href="https://play.google.com/about/play-terms/" target="_blank">Terms of Service</a></li>
     </ul>
 
     <h2>Children's Privacy</h2>
     <p>Sentry Editor is not intended for children under 13. We do not knowingly collect data from children.</p>
 
     <h2>Your Rights</h2>
-    <p>You can delete all app data by uninstalling the app or clearing app data in Android settings.</p>
+    <ul>
+        <li><strong>Delete local data</strong> by uninstalling the app or clearing app data in Android settings</li>
+        <li><strong>Opt out of personalized ads</strong> via your device Settings &gt; Google &gt; Ads</li>
+        <li><strong>Request ad counter deletion</strong> by contacting us at the email below</li>
+    </ul>
 
     <h2>Changes to This Policy</h2>
     <p>We may update this policy occasionally. Changes will be posted on this page.</p>
 
     <h2>Contact</h2>
-    <p>If you have questions about this privacy policy, contact us at: <a href="mailto:support@sentryeditor.com">support@sentryeditor.com</a></p>
+    <p>If you have questions about this privacy policy or want to request data deletion, contact us at: <a href="mailto:support@sentryeditor.com">support@sentryeditor.com</a></p>
 
     <hr style="margin-top: 50px; border: none; border-top: 1px solid #eee;">
     <p style="text-align: center; color: #7f8c8d; font-size: 14px;">&copy; 2026 Chufleco</p>
